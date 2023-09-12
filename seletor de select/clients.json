@@ -1,0 +1,57 @@
+[
+  {
+    "client_id": 1,
+    "name": "Pedro",
+    "email": "pedro@email.com"
+  },
+  {
+    "client_id": 2,
+    "name": "Henrique",
+    "email": "Henrique@email.com"
+  },
+  {
+    "client_id": 3,
+    "name": "Sanatana",
+    "email": "santana@email.com"
+  },
+  {
+    "client_id": 3,
+    "name": "Marinho",
+    "email": "marinho@email.com"
+  },
+  {
+    "client_id": 4,
+    "name": "Alice",
+    "email": "alice@email.com"
+  },
+  {
+    "client_id": 5,
+    "name": "Lucas",
+    "email": "lucas@email.com"
+  },
+  {
+    "client_id": 6,
+    "name": "Mariana",
+    "email": "mariana@email.com"
+  },
+  {
+    "client_id": 7,
+    "name": "Rafael",
+    "email": "rafael@email.com"
+  },
+  {
+    "client_id": 8,
+    "name": "Isabel",
+    "email": "isabel@email.com"
+  },
+  {
+    "client_id": 9,
+    "name": "João",
+    "email": "joao@email.com"
+  },
+  {
+    "client_id": 10,
+    "name": "Camila",
+    "email": "camila@email.com"
+  }
+]

@@ -1,0 +1,72 @@
+  [
+    {
+        "id": 1,
+        "client_id": 4,
+        "data": "2023-07-01",
+        "name": "Iphone 13",
+        "price": 4.685
+    },
+    {
+        "id": 2,
+        "client_id": 7,
+        "data": "2023-07-01",
+        "name": "Tv lg 50 4K",
+        "price": 3.9999
+    },
+    {
+        "id": 3,
+        "client_id": 1,
+        "data": "2023-04-21",
+        "name": "ideapad 3",
+        "price": 2.9913
+    },
+    {
+        "id": 4,
+        "client_id": 3,
+        "data": "2023-07-01",
+        "name": "Motorola G9",
+        "price": 2.192
+    },
+    {
+        "id": 5,
+        "client_id": 4,
+        "data": "2023-01-01",
+        "name": "Mackbook Pro 13",
+        "price": 9.999
+    },
+    {
+        "id": 6,
+        "client_id": 7,
+        "data": "2023-07-01",
+        "name": "Monitor 23 4K",
+        "price": 1.999
+    },
+    {
+        "id": 7,
+        "client_id": 7,
+        "data": "2023-07-01",
+        "name": "Samsung S21",
+        "price": 3.999
+    },
+    {
+        "id": 8,
+        "client_id": 8,
+        "data": "2023-07-02",
+        "name": "kit teclado e mouse gamer",
+        "price": 300.99
+    },
+    {
+        "id": 9,
+        "client_id": 9,
+        "data": "2023-07-03",
+        "name": "impressora",
+        "price": 299.99
+    },
+    {
+        "id": 10,
+        "client_id": 10,
+        "data": "2023-07-04",
+        "name": "fone de ouvido gamer",
+        "price": 99.99
+    }
+]
