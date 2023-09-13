@@ -1,4 +1,4 @@
-  [
+[
     {
         "id": 1,
         "client_id": 4,
@@ -68,5 +68,20 @@
         "data": "2023-07-04",
         "name": "fone de ouvido gamer",
         "price": 99.99
+    },
+    {
+        "id": 11,
+        "client_id": 11,
+        "data": "2023-07-05",
+        "name": "mouse gamer",
+        "price": 99
+    },
+
+    {
+        "id": 11,
+        "client_id": 6,
+        "data": "2023-07-05",
+        "name": "airpods",
+        "price": 999
     }
 ]

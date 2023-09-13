@@ -18,23 +18,23 @@ function loadJSON(file, callback) {
   });
 }
 
-// Solicitar o nome da tabela e o valor do campo client_id ao usuário
 rl.question('Digite o nome da tabela de pedidos: ', (tableName) => {
   rl.question('Digite o valor do client_id: ', (clientId) => {
-    // Carregue os dados dos clientes
     loadJSON('clients.json', (clientesData) => {
-      // Carregue os dados da tabela de pedidos
       loadJSON(`${tableName}.json`, (tableData) => {
-        // Encontre o nome do cliente correspondente com base no client_id
         const clientInfo = clientesData.find((client) => client.client_id === parseInt(clientId));
 
         if (clientInfo) {
           console.log('Nome do Cliente:', clientInfo.name);
 
-          // Filtrar os dados da tabela de pedidos com base no client_id
           const filteredData = tableData.filter((row) => row.client_id === parseInt(clientId));
-          console.log('Registros encontrados:', filteredData);
-        } else {
+          if (filteredData >=0) {
+            console.log("nenhum registro encontrado ")
+          }
+          else {
+            console.log('Registros encontrados:', filteredData);
+          }
+        } else if (clientId >=0) {
           console.log('Nenhum cliente encontrado para o client_id especificado.');
         }
 
