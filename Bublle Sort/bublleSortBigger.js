@@ -18,7 +18,7 @@ function bubbleSort(arr) {
 }
 
 var listaGrande = [];
-for (var i = 1000000; i > 0; i--) {
+for (var i = 10000; i > 0; i--) {
     listaGrande.push(i);
 }
 
